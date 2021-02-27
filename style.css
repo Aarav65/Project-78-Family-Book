@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: red;
+}
+
+#firstp{
+    word-spacing: 10px;
+    font-variant: small-caps;
+    font-size: 80px;
+    color: blue;
+}
+
+#about{
+    font-size: 50px;
+}
+
+#album{
+    border-style: solid;
+    border-color: #faf604;
+    border-radius: 80px;
+    padding: 5px;
+    width: 450px;
+}
+
+button{
+    font-color: red;
+}
