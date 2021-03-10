@@ -1,10 +1,10 @@
 var abouts=[
-    "Mr.Narendra Awasthi. He is MSc in Botony. At present he is Minister in Vaypar Mandal U.P. In the age of 74 he is still working as a farmer. ",
+    "Mr.Narendra Awasthi. He is MSc in Botony. At present he is Minister in Vaypar Mandal U.P. In the age of 74 he is still working as a farmer and my Grangfather ",
     "Mrs.Meera Aawasthi. She is a House Wife and she is my Grandmother",
-    "Mr.Vineet Awasthi.He is C.A (Charted Accountant) and my father.",
-    "Mrs.Rupal Awasthi. She is a House Wife and my mother",
+    "Mr.Vineet Awasthi.He is C.A (Chartered Accountant) and my Father.",
+    "Mrs.Rupal Awasthi. She is a House Wife and my Mother",
     "This is me! Aarav Awasthi and I am a Coder",
-    "She is my sister Agrima Awasthi she loves to play Cricket"
+    "She is my loving Sister Agrima Awasthi and she loves to play Cricket"
     ];
     var images=[
     "grandfather.jpeg",
@@ -16,8 +16,8 @@ var abouts=[
 ];
     var i=0;
     function nextslide(){
-    document.getElementById("about").innerHTML=abouts[i];
-    document.getElementById("album").src=images[i];
+    document.getElementById("about").innerHTML = abouts[i];
+    document.getElementById("album").src = images[i];
     i++;
     }
     
